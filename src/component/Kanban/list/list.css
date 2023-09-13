@@ -1,0 +1,36 @@
+#main{
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 4px #353434;
+}
+#full{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+#listdata{
+    text-align: left;
+    padding: 0px;
+}
+#datalist{
+    height: 355px;
+    overflow-x: auto;
+}
+.list,#kaninp{
+    cursor: pointer;
+    background-color: rgb(115, 138, 138);
+    border-bottom: 1px solid black;
+    padding: 10px;
+    padding-left: 12px;
+}
+#todo{
+    background-color: rgb(94, 94, 126);
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.newitem{
+    cursor: pointer;
+}
+
